@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution](https://github.com/mnmkato/social-links)
-- Live Site URL: [live site](https://your-live-site-url.com](https://mnmkato.github.io/social-links/))
+- Live Site URL: [live site](https://mnmkato.github.io/social-links/))
 
 ## My process
 
