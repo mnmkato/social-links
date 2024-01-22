@@ -3,7 +3,7 @@
     src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 body{
-    background-color: #141414;
+    background-color: hsl(0, 0%, 8%);
     font-family: inter;
     text-align: center;
     display: flex;
@@ -11,15 +11,13 @@ body{
     align-items: center;
 }
 .container{
-    background-color: #1f1f1f;
-    color: white;
-    padding: 2rem 1rem;
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    padding: 1rem 2rem ;
     border-radius: 1rem;
-    width: 50%;
     margin-top: 10vh;
     margin-bottom: 10vh;
-    min-width: 300px;
-    max-width: 350px;
+    width: 300px;
 }
 img{
     border-radius: 50%;
@@ -27,16 +25,16 @@ img{
 }
 .name{
     font-weight:400;
-    font-size: 1.5rem;
+    font-size: 14pt;
     margin-bottom: 0;
 }
 .address{
-    color: #cae268;
+    color: hsl(75, 94%, 57%);
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 8pt;
 }
 .bio{
-    font-size: 0.9rem;
+    font-size: 10pt;
     font-weight: 400;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
@@ -47,20 +45,18 @@ nav{
 }
 a{
     text-decoration: none;
-    background-color: #333333;
+    background-color: hsl(0, 0%, 20%);
     color: white;
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 0.5rem;
     font-weight: 600;
-    font-size: 0.8rem}
+    font-size: 8pt}
 a:hover{
-    background-color: #4a4a4a;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
 }
 @media only screen and (max-width:475px) {
-    body{
-        
-    }
     .container{
         margin-top: 10vh;
         margin-bottom: 10vh;
